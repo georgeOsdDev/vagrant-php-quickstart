@@ -25,7 +25,7 @@ vagrant up
 vagrant ssh
 ```
 
-Server application source code (`../../../cw-talk-mgmt` at host OS) will be synced as `/opt/src/nttcw/mgmtsv-cms` to guest OS(http://php.localhost).
+Server application source code (`/path/to/myapp`,  at host OS) will be synced as `/opt/src/myapp` to guest OS(http://php.localhost).
 
 This vagrant box provide only
 * Nginx
